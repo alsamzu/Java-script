@@ -12,9 +12,9 @@
 ////alert(x);
 //var x=true;
 //console.log(x);
-var x=5;
+var x=prompt("Enter the first number");
 //var x==5;
 //var x===5;
-var y=7;
-var z=x+y;
+var y=prompt("Enter the second number");
+var z=parseInt(x)+parseInt(y);
 document.write("the sum of "  + x + " and " + y + " is " + z);
